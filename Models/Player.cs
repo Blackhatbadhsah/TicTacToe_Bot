@@ -116,9 +116,6 @@ namespace Models
                 return blockingMove;
             }
 
-            // Check for future winning move or select a random move
-            // Your logic to analyze the board and find the best move goes here
-
             return null; // No best move found
         }
 
@@ -142,9 +139,6 @@ namespace Models
                 }
             }
 
-            // Check columns for immediate winning move
-            // Check diagonals for immediate winning move
-            // Your code to check columns and diagonals goes here
 
             return null; // No immediate winning move found
         }

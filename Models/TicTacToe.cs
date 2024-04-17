@@ -29,6 +29,8 @@ namespace Models
             {
                 board.Display();
                 currentPlayer.MakeMove(board);
+                Console.Clear();
+                board.Display();
                 if (CheckWin(this.board.grid,currentPlayer.Symbol))
                 {
                     Console.WriteLine($"Player {currentPlayer.Symbol} wins!");
